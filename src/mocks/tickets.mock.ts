@@ -7,12 +7,14 @@ export const TICKETS_MOCKED: Ticket[] = [
     title: 'Welcome meeting !',
     description: '',
     date: dateToday,
-    author: 'Paul'
+    student: 'Lydia',
+    major : 'SI'
   },
   {
     title: 'Stand up',
     description: 'Description du voyage',
     date: dateToday,
-    author: 'Anakin'
+    student: 'Sara',
+    major : 'GE'
   },
 ];
