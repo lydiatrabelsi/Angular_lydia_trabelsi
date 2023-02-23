@@ -1,3 +1,5 @@
+export {Major};
+
 enum Major {
   SI = 'SI', 
   GE = 'GE', 
