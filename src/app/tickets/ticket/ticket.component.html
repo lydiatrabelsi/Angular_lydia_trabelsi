@@ -7,5 +7,5 @@
   <i *ngIf="ticket.major == 'GE'" class="fas fa-vials"></i>
   <i *ngIf="ticket.major == 'SI'" class="fas fa-envelope"></i>
   {{ticket.major}}
-
+  <button class="btn btn-danger" (click)="deleteTicket()">Delete</button>
 </div>
